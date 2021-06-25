@@ -1,0 +1,10 @@
+apiVersion: v2
+name: account-debit-svc
+version: 0.0.1
+appVersion: 1.0.0
+
+dependencies:
+  - name: app-library-chart
+    version: v2
+    repository: acrlowerssharedhelm.azurecr.io/helm/common
+    #repository: file://../app-library-chart
