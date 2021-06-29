@@ -1,0 +1,14 @@
+replicas: 1
+project:
+  namespace: dev0-proto #actual namespace where to deploy. used in route definition. supplied by tekton
+  name: digital-cardconsole #project where image is stored. same as namespace for dev and qa.
+  deploymentHost: nebula.centralus.aroapp.io # override from tekton
+service:
+  port: 8080
+image:
+  repository: acrlowersaroapps.azurecr.io
+  name: account-debit-svc
+  tag: "release-2021.05.3"
+env:
+  - name: "SPRING_PROFILES_ACTIVE"
+    value: "dev"
