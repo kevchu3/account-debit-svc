@@ -4,7 +4,7 @@ version: 0.0.1
 appVersion: 1.0.0
 
 dependencies:
-  - name: app-library-chart
+  - name: stackrox-central-services-61.1.0
     version: v2
-    repository: oci://mirror.openshift.com/pub/rhacs/charts
+    repository: https://mirror.openshift.com/pub/rhacs/charts
     #repository: file://../app-library-chart
