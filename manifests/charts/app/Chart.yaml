@@ -9,5 +9,5 @@ dependencies:
     version: v2
     #version: 61.1.0
     #repository: https://mirror.openshift.com/pub/rhacs/charts/
-    repository: http://134.209.68.120/charts/
+    repository: http://134.209.68.120/chart/
     #repository: file://../app-library-chart
