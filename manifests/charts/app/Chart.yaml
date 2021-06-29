@@ -5,9 +5,6 @@ appVersion: 1.0.0
 
 dependencies:
   - name: app-library-chart
-  #- name: stackrox-central-services
     version: v2
-    #version: 61.1.0
-    #repository: https://mirror.openshift.com/pub/rhacs/charts/
-    repository: http://nexus.apps.kechung.tamlab.rdu2.redhat.com/service/rest/repository/browse/hosted-helm/
+    repository: http://134.209.68.120/csa/
     #repository: file://../app-library-chart
