@@ -6,5 +6,5 @@ appVersion: 1.0.0
 dependencies:
   - name: app-library-chart
     version: v2
-    repository: mirror.openshift.com/pub/rhacs/charts
+    repository: https://mirror.openshift.com/pub/rhacs/charts
     #repository: file://../app-library-chart
