@@ -6,5 +6,5 @@ appVersion: 1.0.0
 dependencies:
   - name: app-library-chart
     version: 1.0.0
-    repository: http://147.182.170.26:8081/repository/helm-hosted-test1/
+    repository: oci://helper.kechung.tamlab.rdu2.redhat.com:5000/myrepo
     #repository: file://../app-library-chart
