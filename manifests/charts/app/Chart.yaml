@@ -6,5 +6,5 @@ appVersion: 1.0.0
 dependencies:
   - name: app-library-chart
     version: 1.0.0
-    repository: https://redreg.heylab.xyz:5000/myrepo
+    repository: http://nexus.apps.kechung.tamlab.rdu2.redhat.com/repository/hosted-helm/
     #repository: file://../app-library-chart
