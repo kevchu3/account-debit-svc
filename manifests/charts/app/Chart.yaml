@@ -6,5 +6,5 @@ appVersion: 1.0.0
 dependencies:
   - name: app-library-chart
     version: 1.0.0
-    repository: oci://redreg.heylab.xyz:5000/myrepo
+    repository: oci://stevekevinreg.azurecr.io/helm
     #repository: file://../app-library-chart
